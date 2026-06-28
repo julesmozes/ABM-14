@@ -1,0 +1,15 @@
+[project]
+name = "abm-fish"
+version = "0.1.0"
+description = "Spatial fishing ABM"
+readme = "MODEL.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mesa[viz]>=3.5",
+    "numpy",
+    "networkx",
+    "SALib>=1.5",
+    "matplotlib",
+    "pandas>=2.0",
+    "ipykernel>=7.3.0",
+]

@@ -1,0 +1,6 @@
+mesa>=3.5
+numpy>=1.26
+networkx>=3.0
+SALib>=1.5
+pandas>=2.0
+matplotlib>=3.8
