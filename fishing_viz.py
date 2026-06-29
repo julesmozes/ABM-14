@@ -17,7 +17,7 @@ BASE_MODEL_PARAMS = {
     "rng": {"type": "SliderInt", "value": 42, "min": 0, "max": 9999, "step": 1, "label": "Random seed"},
     "width": {
         "type": "SliderInt",
-        "value": 100,
+        "value": 50,
         "min": 20,
         "max": 200,
         "step": 10,
@@ -25,7 +25,7 @@ BASE_MODEL_PARAMS = {
     },
     "height": {
         "type": "SliderInt",
-        "value": 100,
+        "value": 50,
         "min": 20,
         "max": 200,
         "step": 10,
@@ -33,7 +33,7 @@ BASE_MODEL_PARAMS = {
     },
     "n_agents": {
         "type": "SliderInt",
-        "value": 80,
+        "value": 40,
         "min": 10,
         "max": 300,
         "step": 5,

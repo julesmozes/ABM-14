@@ -10,9 +10,10 @@ from mesa.datacollection import DataCollector
 from mesa.space import MultiGrid, PropertyLayer
 
 # Fixed design / literature constants
+V_SEE = 1 
 RHO = 0.88  
 N_PATCHES = 6  
-K_MAX = 1.0 
+K_MAX = 1.0
 METABOLISM = 0.02  
 TRAVEL_COST_DEFAULT = 0.05
 C_BIRTH_DEFAULT = 2.0
@@ -241,9 +242,9 @@ class FishingModel(Model):
 
     def __init__(
         self,
-        width=100,
-        height=100,
-        n_agents=80,
+        width=50,
+        height=50,
+        n_agents=40,
         v=3,
         r=0.1,
         q=0.3,
